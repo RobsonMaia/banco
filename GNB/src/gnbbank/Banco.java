@@ -12,6 +12,9 @@ public class Banco {
 		
 		int senha;
 		
+		System.out.print("Teste de alteraÃ§Ã£o na branch");
+
+
 		Conta conta1 = new Conta();
 		conta1.agencia = 12345;
 		conta1.numConta = 123;
@@ -22,7 +25,7 @@ public class Banco {
 		System.out.println("-----------------");
 		System.out.println("   ");
 		System.out.println("TITULAR: " + conta1.titular);
-		System.out.println("Qual opeeração deseja realizar?");
+		System.out.println("Qual opeeraï¿½ï¿½o deseja realizar?");
 		System.out.println("[1] SAQUE");
 		System.out.println("[2] DEPOSITO");
 		int cont = sc.nextInt();
